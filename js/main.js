@@ -1,4 +1,4 @@
-let currentIndex = 1;
+let currentIndex = 3;
 
 const images = [
     "assets/images/image1.jpg",
@@ -10,9 +10,9 @@ const images = [
     "assets/images/image7.jpg",
 ];
 
-const leftImg = document.querySelectorAll(".leftImg");
+const leftImages = document.querySelectorAll(".leftImg");
 const mainImg = document.getElementById("mainImg");
-const rightImg = document.querySelectorAll(".rightImg");
+const rightImages = document.querySelectorAll(".rightImg");
 
 const prevBtn = document.querySelector(".custom-prev");
 const nextBtn = document.querySelector(".custom-next");
